@@ -23,8 +23,6 @@ export function Hero() {
       
         <div className="bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 font-semibold text-center rounded-3xl shadow-lg p-10 max-w-xs mt-20 mx-auto hover:shadow-2xl">
           <Image className="mb-3 rounded-full shadow-lg mx-auto" src={noniImage2} alt="noni" />
-          <h1 className="text-xl sm:text-2xl md:text-3xl text-gray-50"> Nonis Tales </h1>
-          <p className="text-sm sm:text-md text-gray-50 mt-4"> Las Nonis son seres mágicos de belleza y gracia, guardianas del amor y el descanso. </p>
         </div>
       
     </Container>
