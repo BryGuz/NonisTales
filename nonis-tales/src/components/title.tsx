@@ -3,8 +3,6 @@ import noni001 from '../assets/images/temporal/001.png'
 import noni002 from '../assets/images/temporal/002.png'
 import noni003 from '../assets/images/temporal/003.png'
 import noni004 from '../assets/images/temporal/004.png'
-import noni005 from '../assets/images/temporal/005.png'
-
 
 export const Title = (): JSX.Element => {
   return (
