@@ -27,21 +27,42 @@ export default {
     extend: {
       keyframes: {
         boat: {
-          '0%, 100%': { transform: 'rotate(-1.5deg) scale3d(1.09,1.09,1.09)' },
-          '50%': { transform: 'rotate(1.5deg) scale3d(1,1,1)' },
+          '0%, 100%': { transform: 'rotate(-2deg) scale3d(1.09,1.09,1.09)' },
+          '50%': { transform: 'rotate(2deg) scale3d(1,1,1)' },
         },
-        wiggle: {
-          '0%, 100%': { transform: 'rotate(-10deg)' },
-          '50%': { transform: 'rotate(10deg)' },
+        "boat-translate": {
+          "0%": {
+            transform: 'translateX(0px) translateY(-10px) rotate(0deg)'
+          },
+          "60%": {
+            transform: 'translateX(300px) translateY(0px) rotate(-30deg)'
+          },
+          "75%": {
+            transform: 'translateX(-150px) translateY(0px) rotate(25deg)'
+          },
+          "100%": {
+            transform: 'translateX(0px) translateY(0px) rotate(0deg)'
+          }
+        },
+        "boat-float": {
+          "0%": {
+            transform: 'translateY(0px)'
+          },
+          "50%": {
+            transform: 'translateY(-10px)'
+          },
+          "75%": {
+            transform: 'translateY(10px)'
+          },
+          "100%": {
+            transform: 'translateY(0px)'
+          }
         }
       },
       animation: {
-        boat: 'boat 12s ease-in-out infinite',
-        wiggle_1: 'wiggle 1s ease-in-out infinite',
-        wiggle_2: 'wiggle 1.1s ease-in-out infinite',
-        wiggle_3: 'wiggle 1.2s ease-in-out infinite',
-        wiggle_4: 'wiggle 1.3s ease-in-out infinite',
-        wiggle_5: 'wiggle 1.4s ease-in-out infinite',
+        boat: 'boat 5s ease-in-out infinite',
+        "boat-translate": 'boat-translate 30s ease-in-out infinite',
+        "boat-float": 'boat-float 2s ease-in-out infinite'
       }
     },
   },

@@ -5,6 +5,7 @@ import { ParallaxProvider } from 'react-scroll-parallax'
 import './App.css'
 import { Home } from './components/home'
 import { Title } from './components/title'
+import { Christmas } from './components/christmas'
 
 function App (): JSX.Element {
   return (
@@ -15,6 +16,7 @@ function App (): JSX.Element {
             <Home />
           </ParallaxProvider>
         )} />
+        <Route path="/christmas" element={ <Christmas />} />
         <Route path="/" element={<Title />} />
       </Routes>
     </BrowserRouter>
