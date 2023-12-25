@@ -16,7 +16,7 @@ export const Title = (): JSX.Element => {
             </a>
           </div>
           <div className="flex gap-x-12 text-white">
-            Nonis tales & Co
+            Nonis tales & CO
           </div>
         </nav>
 
